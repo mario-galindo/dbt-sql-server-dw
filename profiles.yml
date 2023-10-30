@@ -1,5 +1,5 @@
 dbt_sql:
-  target: demo1
+  target: demo2
   outputs:
     demo1:
       type: sqlserver
@@ -21,3 +21,4 @@ dbt_sql:
       schema: dw
       user: sa
       password: Mario1994c#
+      trust_cert: true
